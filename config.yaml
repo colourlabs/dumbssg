@@ -1,0 +1,7 @@
+title: example site
+
+# all of this is defualt values, but you can change them if you want
+output_dir: dist
+content_dir: content
+templates_dir: templates
+assets_dir: assets

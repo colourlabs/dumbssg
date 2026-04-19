@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site_title }}</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <h1>{{ site_title }}</h1>
+    <ul>
+      {% for post in posts %}
+      <li><a href="/{{ post.slug }}">{{ post.title }}</a> - {{ post.date }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
